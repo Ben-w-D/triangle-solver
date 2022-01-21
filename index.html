@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Ben's Triangle Solver</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Triangle Solver</h1>
+        <h3>Enter each side length and angle (in degrees). If unknown, leave blank.</h3>
+        <h3 id="error">Something went wrong. Make sure you provided enough information.</h3>
+        <h4>Sides</h4>
+        <input type="text" id="sideA" placeholder="Side A">
+        <input type="text" id="sideB" placeholder="Side B">
+        <input type="text" id="sideC" placeholder="Side C">
+        <h4>Angles</h4>
+        <input type="text" id="angleA" placeholder="Angle A">
+        <input type="text" id="angleB" placeholder="Angle B">
+        <input type="text" id="angleC" value="Angle C: 90" disabled="true">
+        <br>
+        <br>
+        <button onclick="calculate()" id="button">Calculate</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
